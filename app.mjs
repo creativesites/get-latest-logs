@@ -489,7 +489,7 @@ async function run(){
         toArray(),
     ).toPromise();
 }
-cron.schedule('*/2 * * * *', () => {
+cron.schedule('0 */3 * * *', () => {
   console.log('running a task every 3 hours');
   run().then(() => {
     console.log('done');
