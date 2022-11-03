@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "p1-salesvm-henry-iqel",
+    "private_key_id": "cae7b7977c5d7e760bce775180cf93f7fa72c56b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDm75Qxezqo9eCg\nhY2W/lmCIcWAMJqEUmKdi0IrbHajIALyMa5TAcHDnwD2BoStbww6ZhgkXK3EqZcB\nfUy0Y5zxnYO7EQvth2OUOheGPqHHRtmlZe2O+AnR3C2EWC0oITLeIkumx55yOAI2\neXdAmvIwconpXDXJECWB7nxHiZtMY/BvTtDBvA6l6v/eiVcPYtyAc/ad8EMdtaa5\nRsbQcKvhHZoeJD9DdbH6in8NyLe+AegxMbh/o8iksBBV38INXXua7UaxdLr4VQJo\n9mEj8hzrRoax41UCTuc5aCgxy6yhRbnqL7Q8gK2r3dIfBq23GozfhfWSNzNNNU9T\ny/V0P+uPAgMBAAECggEANQml+91E4iQiNEun8ps03G28Kc4/1o8DRhKDHmz5LErA\nUnZ1hmvbX/2nH1ns49YitVDYT5WXdRjL7RQlZzKPi3A1HmPyXNmg1Zyn5XWB+z36\n44Eu14yA2Nlb/M6xhEtnntu6izHCYpIZdABekpBjehv8L4O1eJmEO7yVf2qLp7XG\ngnXarTEwfm+awgsdmARvbc5puBXBAbLRFdfFH8wgh1RQdTxUtM9k/sDT18mgH3dU\nbE+D1X16uKljN0qhjAeJguFPgUeSrtfsN97OFOj4ytzB3sVUmqOtLw0fh6wdAcyf\neNxu6KcAf5jHcnAuU8N0bGPEdBAOTu3PcUBJucnJPQKBgQD20D3Ji8vQ3MQU/ey8\nqY/qmUfGJnoBPg6F9KYEERn2cVNwHSVul1eG+znYJHliH2bMF1nNMCb+/IlgY/Zm\nhic9qB/GSOIXZ7y1V1VUR4mlcgyDAXx/aaPFSzBu/oRte4akSxoaovvWcppyRdko\nzGEbRoCcBYuVKKYptjMl909K4wKBgQDviAxSs3y+VzQUHrPcDlDiM0UzFgFICAzt\nGk0UofGzFxx6rojLtBn8u3jZcxGln/nSfJyMokUXLZrL3GprRm0KvOpBi1yllOv2\ntFJCntZUA50TO/FRXbaKIudxaXBPYiHQF4WEse+Qp5mA6KLa0W/R/Htl/EUenXOy\noVFb8OkgZQKBgQC7OUhFhQg9DdqoWd6lVrLXMSMjCrjuDFcUAnuVBiv9qAW1PEbS\n13cL67L7ZN+3MT7XfrceUXKjZooHVozpRMarnMdNsKfhPU4G+ZK+9e1SVWtsTUpV\nlJso5Fp/OA7YxiVip53LqusCx7ilCpsqua7H8/lHYWV65nT1m0K9gBbkJQKBgQC0\nAQdRtvSNjbbjT9dWDaQW+PSN2YGJAhPEsrkuQi0CquGKCFNg0a2d0byVnPWsA7aX\nyXFT9jX5nxnvDWsjxr73DNT2AKbVAD77HLOcwQTMChMmeyt0O/qLgINxJQ1zeoly\nedqqx5UCnhCrYSfRTQa9RQHuuE+xHB3wJW6gq0BmSQKBgFrKeGIh9M9rCSSIwLH7\nheO5sLVn0xZ2ozE+enHP3IR79ypQyvclD4omheMHJPnxbSh0XuJ1CQdgf/68/xWg\nCJ+DOJl5mriiHl+8lJEkiH1lTe/1AwbV3MsSUibKn7p6iaS+33nwl0UstILXnHiG\nWJFfNeyVXr0tQmFWRabZKqLk\n-----END PRIVATE KEY-----\n",
+    "client_email": "dialogflowtest@p1-salesvm-henry-iqel.iam.gserviceaccount.com",
+    "client_id": "117684810192504325532",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflowtest%40p1-salesvm-henry-iqel.iam.gserviceaccount.com"
+  }
+  

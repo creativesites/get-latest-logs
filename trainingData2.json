@@ -1,0 +1,1120 @@
+[
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Garcia   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia Optima, 2013.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - List services.\n   👩🏻‍💻: - Our services include;Recalls;Brake repair; AC and Cabin Filter Replacement;Engine light, Battery and Electrical system;Windshield Wipers and Fluid;Tire repairs and changes;and Inspection ;Please say a service name, or NEXT for more options\n👱‍♀️: - Next.\n   👩🏻‍💻: - Our next services include;Accessories;Body works; Pulling and Noises;Sensor replacement;Transmission; Steering; Ignition system;And Muffler ;Please say a service name\n👱‍♀️: - Body Works.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isToday at 10:50 AM, 11:50 AM and 1:10 PM   Please select a time, say next, or say a date of your choice\n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityToday at 2:30 PM and 3:50 PMPlease select a time, say next, or say a date\n👱‍♀️: - Tuesday, August 23rd.\n   👩🏻‍💻: - We have availabilityTomorrow at 7:50 AM, 8:50 AM and 10:10 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 7:50 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Make appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Financ   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "TrainingString": "Service. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Book appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - I know it breaks.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Camaro.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2021 Kia, Sorento.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Let's Get It On.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isTuesday September 6th at 9:10 AM, 9:30 AM and 9:50 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Good bye",
+        "TrainingString": "Book appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Solorio   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - An appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Good bye",
+        "TrainingString": "An appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Morales   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Status update.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2021.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE ",
+        "LastIteration": "\n👱‍♀️: - Seltos.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "TrainingString": "Status update. ‍",
+        "Type": "Status"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Speak to someone.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Service department.\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - We're sorry, the number you entered is either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Speak to someone. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Turriaga   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Speak to someone in service please.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I'd like to speak to someone in service.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Speak to someone in service please. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service department.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Schedule a service appointment price inquiry.\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - Gilbert ogilbee.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Camacho Camacho.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Service department. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need a real person to talk.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - On my car, just get Coalition. So I just wanted to ring. If you guys can take care of it,\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - And on Zenith v e. N a n c, h e, n.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - C, h e n Chen.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I need a real person to talk. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Turriaga   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Speak to the receptionist.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Perfect.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Speak to the receptionist. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Duarte   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Says, is this?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - You know.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Saoli.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Is that okay?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Can you let me go to Korea.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Set reminder.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Says, is this? ‍",
+        "Type": "Quotation"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need to speak with Alberto.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - I need to confirm the status of repairs for a 2004. Kia Soul.\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - Dylan d y. L a n.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Sotelo Sotelo.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I need to speak with Alberto. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Harman   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Want to see the status of my car.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2017.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE ",
+        "LastIteration": "\n👱‍♀️: - Forte.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "TrainingString": "Want to see the status of my car. ‍",
+        "Type": "Status"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Harman   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Want to see the status of my car.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2017.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE ",
+        "LastIteration": "\n👱‍♀️: - Forte.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "TrainingString": "Want to see the status of my car. ‍",
+        "Type": "Status"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Jaramillo   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need to talk to somebody about a symptom for my car.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Yeah, my clutch pedal doesn't have much pressure and I'm wondering if it's the clutch master cylinder needs to be swapped out.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I need to talk to somebody about a symptom for my car. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Jaramillo   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need to talk to somebody about a symptom for my car.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Yeah, my clutch pedal doesn't have much pressure and I'm wondering if it's the clutch master cylinder needs to be swapped out.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I need to talk to somebody about a symptom for my car. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Duran   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Book a service appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2019.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - Forte.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isToday at 3:50 PM   Please select a time, say next, or say a date of your choice\n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityTomorrow at 7:50 AM, 9:30 AM and 10:30 AMPlease select a time, say next, or say a date\n👱‍♀️: - Thursday, August 25th.\n   👩🏻‍💻: - We have availabilityThursday August 25th at 7:30 AM, 8:30 AM and 9:50 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 8:30, a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Book a service appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Arriaga   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2014.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - 4K.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - Kia Forte.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Rico.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - List services.\n   👩🏻‍💻: - Our services include;Recalls;Brake repair; AC and Cabin Filter Replacement;Engine light, Battery and Electrical system;Windshield Wipers and Fluid;Tire repairs and changes;and Inspection ;Please say a service name, or NEXT for more options\n👱‍♀️: - Recalls.\n   👩🏻‍💻: -    Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. Do you have any other concerns with your vehicle in addition to your recall?    \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Snow.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2014 Forte ?   \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - What is a 2014? Kia Forte.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2014.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Recalls.\n   👩🏻‍💻: -    Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. Do you have any other concerns with your vehicle in addition to your recall?    \n👱‍♀️: - No.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Drop off my vehicle.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date \n👱‍♀️: - September 3rd.\n   👩🏻‍💻: - We have availabilitySaturday September 3rd at 8:00 AM, 9:00 AM and 10:20 AMPlease select a time, say next, or say a date\n👱‍♀️: - August 27th.\n   👩🏻‍💻: - We have availabilitySaturday August 27th at 8:20 AM, 9:20 AM and 10:40 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 8:20 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Arriaga   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2014.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - 4K.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - Kia Forte.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Rico.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - List services.\n   👩🏻‍💻: - Our services include;Recalls;Brake repair; AC and Cabin Filter Replacement;Engine light, Battery and Electrical system;Windshield Wipers and Fluid;Tire repairs and changes;and Inspection ;Please say a service name, or NEXT for more options\n👱‍♀️: - Recalls.\n   👩🏻‍💻: -    Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. Do you have any other concerns with your vehicle in addition to your recall?    \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Snow.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2014 Forte ?   \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - What is a 2014? Kia Forte.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2014.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Recalls.\n   👩🏻‍💻: -    Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. Do you have any other concerns with your vehicle in addition to your recall?    \n👱‍♀️: - No.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Drop off my vehicle.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date \n👱‍♀️: - September 3rd.\n   👩🏻‍💻: - We have availabilitySaturday September 3rd at 8:00 AM, 9:00 AM and 10:20 AMPlease select a time, say next, or say a date\n👱‍♀️: - August 27th.\n   👩🏻‍💻: - We have availabilitySaturday August 27th at 8:20 AM, 9:20 AM and 10:40 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 8:20 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Arriaga   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2014.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - 4K.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - Kia Forte.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Rico.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - List services.\n   👩🏻‍💻: - Our services include;Recalls;Brake repair; AC and Cabin Filter Replacement;Engine light, Battery and Electrical system;Windshield Wipers and Fluid;Tire repairs and changes;and Inspection ;Please say a service name, or NEXT for more options\n👱‍♀️: - Recalls.\n   👩🏻‍💻: -    Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. Do you have any other concerns with your vehicle in addition to your recall?    \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Snow.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2014 Forte ?   \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - What is a 2014? Kia Forte.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2014.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Recalls.\n   👩🏻‍💻: -    Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. Do you have any other concerns with your vehicle in addition to your recall?    \n👱‍♀️: - No.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Drop off my vehicle.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date \n👱‍♀️: - September 3rd.\n   👩🏻‍💻: - We have availabilitySaturday September 3rd at 8:00 AM, 9:00 AM and 10:20 AMPlease select a time, say next, or say a date\n👱‍♀️: - August 27th.\n   👩🏻‍💻: - We have availabilitySaturday August 27th at 8:20 AM, 9:20 AM and 10:40 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 8:20 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Robles   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Me an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2020. Kia, Sorento.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Air conditioner, not working.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Tomorrow 9:30.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Me an appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Robles   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Me an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2020. Kia, Sorento.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Air conditioner, not working.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Tomorrow 9:30.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Me an appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Robles   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Me an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2020. Kia, Sorento.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Air conditioner, not working.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Tomorrow 9:30.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Me an appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Robles   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Me an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2020. Kia, Sorento.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Air conditioner, not working.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Tomorrow 9:30.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Me an appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Berberian   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Make an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia Forte 2022.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Followed by the pound key.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - good bye.",
+        "TrainingString": "Make an appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Berberian   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Make an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia Forte 2022.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Followed by the pound key.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - good bye.",
+        "TrainingString": "Make an appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Berberian   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Make an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia Forte 2022.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Followed by the pound key.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - good bye.",
+        "TrainingString": "Make an appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service Chief.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2023. Kia Sportage.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isMonday August 22nd at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date \n👱‍♀️: - Repeat.\n   👩🏻‍💻: - We have availabilityMonday August 22nd at 9:30 AM, 10:30 AM and 11:50 AMPlease select a time, say next, or say a date\n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityMonday August 22nd at 1:10 PM, 2:30 PM and 3:50 PMPlease select a time, say next, or say a date\n👱‍♀️: - Saturday appointments.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityMonday August 22nd at 9:30 AM, 10:30 AM and 11:50 AMPlease select a time, say next, or say a date\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 10:30 a.m.\n   👩🏻‍💻: - Please say your first name and last name",
+        "LastIteration": "\n👱‍♀️: - Momoya Melgar.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Service Chief. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Wu   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I like the book appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia Optima.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2012.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Engine check.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Split services.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isMonday August 22nd at 9:30 AM, 10:30 AM and 11:50 AM   Please select a time, say next, or say a date \n👱‍♀️: - Representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I like the book appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Martinez   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Speak to a representative.\n   👩🏻‍💻: - We are closed now. Please leave us a message and our agents will follow up with you as soon as possible. ",
+        "LastIteration": "\n👱‍♀️: - 202-726-4012. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - good bye",
+        "TrainingString": "Speak to a representative. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Check. Appointment date.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2014.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - 202-726-6251, please enter the call summary followed by the pound key.\n   👩🏻‍💻: - good bye.",
+        "TrainingString": "Check. Appointment date. ‍",
+        "Type": "Confirm"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Liquor service appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2016. Kia Sorento V6.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - State at the dealership.\n   👩🏻‍💻: - We could not find any availability on that day. What day and time would you like to bring your car?\n👱‍♀️: - Wednesday.\n   👩🏻‍💻: - We have availabilityWednesday August 24th at 7:30 AM, 8:30 AM and 9:50 AMPlease select a time, say next, or say a date\n👱‍♀️: - 10:30 a.m.\n   👩🏻‍💻: -    Please select a time slot from the following list    7:30 AM, 8:30 AM and 9:50 AM, say next, or say another date    \n👱‍♀️: - Next.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 10:30 a.m.\n   👩🏻‍💻: -    Please select a time slot from the following list    7:30 AM, 8:30 AM and 9:50 AM, say next, or say another date    \n👱‍♀️: - 9:50 a.m.\n   👩🏻‍💻: - Please say your first name and last name\n👱‍♀️: - Why lie?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Yes.\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - first name, spelled w a i\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Spell. L e, e.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Liquor service appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I would like to make an appointment for service on my car, or for Monday.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - What year is it, 19?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Stinkers Bay.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 02726 16 89 summary followed by the pound key.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - We're sorry, the number you entered is either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Good bye",
+        "TrainingString": "I would like to make an appointment for service on my car, or for Monday. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need a time frame on a service.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - 202-726-1748 please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - We're sorry, the number you entered is either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I need a time frame on a service. ‍",
+        "Type": "Status"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Fisher   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Talk to a person.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - 1, 1 6, 1 3, 6, 9 3 5 9, please enter the call summary followed by the pound key.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Talk to a person. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Fisher   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Talk to a person.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - 1, 1 6, 1 3, 6, 9 3 5 9, please enter the call summary followed by the pound key.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Talk to a person. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Talk to person.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Unable to connect Apple carplay.\n   👩🏻‍💻: - Please say your first name then spell it",
+        "TrainingString": "Talk to person. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Mercado   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Oil change.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - Kia, 2012 Optima.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Kia Optima 2012.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:50 AM, 10:50 AM and 12:10 PM   Please select a time, say next, or say a date of your choice",
+        "LastIteration": "\n👱‍♀️: - 9:50 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Oil change. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Goya   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Oil change.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - Kia Optima 2012.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - No.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Latest dealership.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:50 AM, 10:50 AM and 12:10 PM   Please select a time, say next, or say a date of your choice",
+        "LastIteration": "\n👱‍♀️: - Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - good bye.",
+        "TrainingString": "Oil change. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Abrahams   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need to speak to a technician at Boise.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I would like to know if you do electrical work.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I need to speak to a technician at Boise. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Valdez   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Book appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia. Soul 2012.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Under.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - List services.\n   👩🏻‍💻: - Our services include;Recalls;Brake repair; AC and Cabin Filter Replacement;Engine light, Battery and Electrical system;Windshield Wipers and Fluid;Tire repairs and changes;and Inspection ;Please say a service name, or NEXT for more options\n👱‍♀️: - Inspection.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isSaturday September 3rd at 10:00 AM, 10:20 AM and 10:40 AM   Please select a time, say next, or say a date \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - August 23rd.\n   👩🏻‍💻: - We have availabilityTuesday August 23rd at 7:50 AM, 8:50 AM and 10:10 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 10:10 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "TrainingString": "Book appointment. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Duford   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need to book an appointment for my car.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2018, Kia Optima.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - I'm having engine trouble with the injection or something.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Customer service.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I would like to speak to someone please.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "I need to book an appointment for my car. ‍",
+        "Type": "Booking"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service advisor.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Question about the evaporation cleaning and recharge home AC.\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - Junior, junior.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Blanco b, l a n c, o.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Service advisor. ‍",
+        "Type": "Operator"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Mercado   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Book, an appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2019 Optima ?   \n👱‍♀️: - No.\n   👩🏻‍💻: -     Please say your vehicle year, make and model  \n👱‍♀️: - 2017. Kia Soul.\n   👩🏻‍💻: - Thank you. Now, please tell me what service you would like, for example oil change?\n👱‍♀️: - Customer service.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "TrainingString": "Book, an appointment. ‍",
+        "Type": "Booking"
+    },
+
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Renn   Welcome to Stockton Hyundai. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today? \n👱‍♀️: - Make an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2022 Sonata hybrid.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Speak to basic service representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - A lot of my safety.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Make an appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Magnasco   Welcome to Stockton Hyundai. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today? \n👱‍♀️: - I would like to make an appointment for today, if possible.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2018.\n   👩🏻‍💻: - Please say your vehicle's model, for example, Kona \n👱‍♀️: - Kona.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Stuck.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - List services.\n   👩🏻‍💻: - Our services include;Recalls;Brake repair; AC and Cabin Filter Replacement;Engine light, Battery and Electrical system;Windshield Wipers and Fluid;Tire repairs and changes;and Inspection ;Please say a service name, or NEXT for more options\n👱‍♀️: - AC repair.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Drop it off.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:00 AM, 9:40 AM and 10:20 AM   Please select a time, say next, or say a date \n👱‍♀️: - Tomorrow.\n   👩🏻‍💻: - We have availabilityTomorrow at 10:50 AM, 1:50 PM and 2:50 PMPlease select a time, say next, or say a date\n👱‍♀️: - Tomorrow.\n   👩🏻‍💻: - We have availabilityTomorrow at 10:50 AM, 1:50 PM and 2:50 PMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 1050 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I would like to make an appointment for today, if possible. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Simon   Welcome to Stockton Hyundai. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today? \n👱‍♀️: - Service advisor.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - I am calling for an update.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Service advisor. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Stockton Hyundai. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today? \n👱‍♀️: - Customer service person.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Can you connect me to a real person?\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Debra d. E. B r. A\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Green green.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Customer service person. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Berteloot   Welcome to Stockton Hyundai. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today? \n👱‍♀️: - I have a question about what is involved in a service?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I have I need to make an appointment, or 12,000 Mi service before I do that. I want to know what is entailed in that service and how long it will take.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "I have a question about what is involved in a service? ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: - Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today?",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "Type": "Operator",
+        "TrainingString": " Representative. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Smith   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Amanda Todd.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - ABS office.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Amanda Todd. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Torres   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Check the status of a vehicle.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "Type": "Status",
+        "TrainingString": " Check the status of a vehicle. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Durbin   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Talk to representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Checking on service maintenance on a car.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Status",
+        "TrainingString": "Talk to representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Speak to an advisor.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Mark, Mark.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Stiles Stiles.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 860-258-5454.\n   👩🏻‍💻: -    Please say yes to confirm our agent can contact you  ",
+        "LastIteration": "\n👱‍♀️: - Yep.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you soon. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Speak to an advisor. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Hi, I want to see you but if I can get a key for my car because I lost it.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - All day.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - August.\n   👩🏻‍💻: - No matched intent",
+        "Type": "Book",
+        "TrainingString": "Hi, I want to see you but if I can get a key for my car because I lost it. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Llc   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - How much is an oil change?\n   👩🏻‍💻: -  What is the year of your vehicle?\n👱‍♀️: - 20 19.\n   👩🏻‍💻: -  What is the model?\n👱‍♀️: - Toyota Corolla.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Kaitlyn k. A t e. L y n.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - T a n g.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your service quotation for your 19 Toyota Corolla.. Good bye.   ",
+        "Type": "Quotation",
+        "TrainingString": "How much is an oil change? ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Customer service representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Customer service.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - A r l. I e.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Krty.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Customer service representative. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Lunski   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Get the help. I need.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Shaking, confirm battery repair.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Get the help. I need. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Hearns   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I need to make an appointment for my 21. Tacoma pickup truck.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - It's 2021 Takoma pickup.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Well, I just hit my 5,000 Mi maintenance.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Doesn't say it just says, make an appointment for maintenance.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isTuesday September 6th at 10:40 AM and 1:00 PM   Please select a time, say next, or say a date \n👱‍♀️: - September.\n   👩🏻‍💻: - What date works for you?\n👱‍♀️: - September 10th.\n   👩🏻‍💻: - We have availabilitySaturday September 10th at 10:40 AM, 1:00 PM and 2:00 PMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 1:00.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I need to make an appointment for my 21. Tacoma pickup truck. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Aniello   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Shuttle pickup.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Need shuttle pick-up.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Shuttle pickup. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Reschedule appointment.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Andre andrc.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Mardirossian, mardirossian.\n   👩🏻‍💻: - I did not find any appointment under this phone number.. Please say operator or other.\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I need to reschedule my service appointment.\n   👩🏻‍💻: -    Thank you. Glad to help you with your appointment. Please say your vehicle year, make and model   ",
+        "Type": "Reschedule",
+        "TrainingString": "Reschedule appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Dobberstein   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I need to talk to a person.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I need to discuss an issue with my vehicle.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "I need to talk to a person. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Parks   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Estimate of Toyota.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Speak with the service advisor.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Airbag.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Aaron Aaron.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Fesler beseler.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Speak with the service advisor. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Barnar   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Book appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2020 tacoma ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Normal service.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - List services.\n   👩🏻‍💻: - Our services include;Recalls;Brake repair; AC and Cabin Filter Replacement;Engine light, Battery and Electrical system;Windshield Wipers and Fluid;Tire repairs and changes;and Inspection ;Please say a service name, or NEXT for more options\n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?",
+        "LastIteration": "\n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isThursday September 15th at 9:30 AM, 12:00 PM and 1:00 PM   Please select a time, say next, or say a date ",
+        "Type": "Booking",
+        "TrainingString": "Book appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today?\n👱‍♀️: - Secret manager.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - I recently just died last weekend, purchase a new car. I noticed an issue with a I reached out to the salesperson.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Nicole, Nicole.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Osborne OS b as in boy, o. R n.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Floor a 029-4494 for.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - 480-2294.\n   👩🏻‍💻: - Please enter a 10 digit phone number",
+        "Type": "Operator",
+        "TrainingString": "Secret manager. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Hello.\n   👩🏻‍💻: - No matched intent",
+        "Type": "Other",
+        "TrainingString": " Hello. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Perry   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - With trunk is done.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - 2014. Toyota Takoma under Randall Perry.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Snow.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - I want to pick it up.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - I want to speak to the service manager.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Status",
+        "TrainingString": "With trunk is done. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Sandoval   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Is there anyway, I can speak to Cedric.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Danny is to be Maya.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Is there anyway, I can speak to Cedric. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Hoke   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Hoke   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Garcia   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I'm going to schedule an oil change in the tire rotation.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - 2021, kamry Toyota.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - And oil change.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 2021, kamry Toyota.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Car tire, rotation, and oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isThursday September 15th at 9:30 AM, 12:00 PM and 1:00 PM   Please select a time, say next, or say a date \n👱‍♀️: - Do you have anything sooner than the 15th?\n   👩🏻‍💻: - We have availabilityThursday September 15th at 9:30 AM, 10:30 AM and 12:00 PMPlease select a time, say next, or say a date\n👱‍♀️: - Do you have 19th of September available?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Speak to representative, please.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I need a secret representative.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I'm going to schedule an oil change in the tire rotation. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "Type": "Other",
+        "TrainingString": " ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Torres   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Book. Service appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2022. Toyota RAV4 hybrid.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isThursday September 15th at 9:30 AM, 12:00 PM and 1:00 PM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Tomorrow Saturday, the September 3rd.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityThursday September 15th at 9:30 AM, 12:00 PM and 1:00 PMPlease select a time, say next, or say a date",
+        "Type": "Booking",
+        "TrainingString": "Book. Service appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Condotta   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Set store service.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "Type": "Other",
+        "TrainingString": "Set store service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Zaragosa   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Just a service.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2014.\n   👩🏻‍💻: - Please say your vehicle's model, for example, Corolla \n👱‍♀️: - Lexus.\n   👩🏻‍💻: - What is the car year?\n👱‍♀️: - 24.\n   👩🏻‍💻: - What is your car model, for example, RX?\n👱‍♀️: - Sia.\n   👩🏻‍💻: - What is your car model, for example, RX?\n👱‍♀️: - R es250.\n   👩🏻‍💻: - Thank you. Now, please tell me what service you would like, for example oil change?",
+        "LastIteration": "\n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?",
+        "Type": "Booking",
+        "TrainingString": "Just a service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Schroder   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Confirm tomorrow's appointment.\n   👩🏻‍💻: - Please leave us a short message and our agents will follow up with you shortly. ",
+        "LastIteration": "\n👱‍♀️: - This is Jeff Schroeder. I just confirming my appointment for my truck on Saturday.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "Type": "Confirm",
+        "TrainingString": "Confirm tomorrow's appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Oxford   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2013, Cadillac SRX 4.\n   👩🏻‍💻: - Thank you. Our automated service only handles Toyota models. Please say another year make and model, or say operator to get assistance for your cadillac.\n👱‍♀️: - Evaporator.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Make an appointment.\n   👩🏻‍💻: -    Thank you. Glad to help you with your appointment. Please say your vehicle year, make and model   ",
+        "LastIteration": "\n👱‍♀️: - 2 representative.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Appointment. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Primera   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Booking appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  ",
+        "Type": "Booking",
+        "TrainingString": " Booking appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr George   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Sam's Club appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2021. Toyota Highlander\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "Type": "Cancel",
+        "TrainingString": "Sam's Club appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Harris   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Book appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2021 rav4 ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - 15000 miles.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Oil, chage.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Drop it off.\n   👩🏻‍💻: - Our first availability isWednesday September 14th at 9:00 AM   Please select a time, say next, or say a date \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Saturday, September 17th.\n   👩🏻‍💻: - We have availabilitySaturday September 17th at 9:30 AM, 12:30 PM and 1:30 PMPlease select a time, say next, or say a date\n👱‍♀️: - Saturday, September 24th.\n   👩🏻‍💻: - We have availabilitySaturday September 24th at 8:00 AM, 9:00 AM and 10:00 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - eight a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Book appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Primera   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - My battery warranty.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I just messages for Todd or my crosses.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Warranty",
+        "TrainingString": "My battery warranty. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Quezada   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Quezada   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Mccann   Welcome to Bell Road Toyota Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2011, Toyota RAV4.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - The vehicle won't start going to be chosen to your dealership.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - The car will be taken to the dealership.\n   👩🏻‍💻: - Our first availability isTuesday September 6th at 10:20 AM and 1:00 PM   Please select a time, say next, or say a date \n👱‍♀️: - September 2nd.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityTuesday September 6th at 10:20 AM and 1:00 PMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - September 2nd.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityTuesday September 6th at 10:20 AM and 1:00 PMPlease select a time, say next, or say a date",
+        "Type": "Booking",
+        "TrainingString": "Make appointment."
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - Oil change.\n   👩🏻‍💻: -    Thank you. Glad to help you with your appointment. Please say your vehicle year, make and model   \n👱‍♀️: - Ford F150, 20 18.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: -    Would you like any other services?   \n👱‍♀️: - Know.\n   👩🏻‍💻: -  Would you like to drop off your vehicle, wait at the dealership, or would you need a ride? \n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isWednesday September 7th at 7:45 AM, 8:45 AM and 9:45 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Today.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityWednesday September 7th at 7:45 AM, 8:45 AM and 9:45 AMPlease select a time, say next, or say a date",
+        "Type": "Booking",
+        "TrainingString": "Oil change. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - Service Department, please.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Nicholas are from Nissan of Vacaville to call me back till to. Let Tim know that the Murano is good to go and finish.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Nicholas. Nicholas.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Barringer Barringer.\n   👩🏻‍💻: - Please enter a 10 digit phone number",
+        "LastIteration": "\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "Type": "Operator",
+        "TrainingString": "Service Department, please. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - I need to speak to assistant person.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Need to speak to somebody.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - I need to speak to Steve.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - I need to speak to someone directly.\n   👩🏻‍💻: - Please enter a 10 digit phone number",
+        "LastIteration": "\n👱‍♀️: - I don't have to cancel it.\n   👩🏻‍💻: - No matched intent",
+        "Type": "Operator",
+        "TrainingString": "I need to speak to assistant person. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - Speak to cylinder.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Speak to Salon.\n   👩🏻‍💻: - Great. Please say your first name then spell it",
+        "LastIteration": "\n👱‍♀️: - Oh my gosh, I want to talk to somebody.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "Type": "Operator",
+        "TrainingString": "Speak to cylinder. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - I need to talk to Steve.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - I need to talk to Steve.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Set alarm to set.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - To stat Doucette.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 707.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - 707-339-3803.\n   👩🏻‍💻: -    Please say yes to confirm our agent can contact you  ",
+        "Type": "Operator",
+        "TrainingString": "I need to talk to Steve. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - First service.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Danielle Danielle.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Hoskins Hoskins.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 707-942-5853.\n   👩🏻‍💻: -    Please say yes to confirm our agent can contact you  ",
+        "LastIteration": "\n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "First service."
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - I would like to speak to Steve darchuk, please.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Steve Archer, please.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Anderson Anderson.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Hill h, i l l.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - I would like to speak to Steve darchuk, please.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - do you have by vehicle and I need to have the status\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Operator, please.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Camera problem. Take a drive.\n   👩🏻‍💻: - Please enter a 10 digit phone number",
+        "Type": "Operator",
+        "TrainingString": "I would like to speak to Steve darchuk, please. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Napa Ford Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?\n👱‍♀️: - Charter is gone in my truck.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  ",
+        "Type": "Booking",
+        "TrainingString": "Charter is gone in my truck. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? Please say operator \n👱‍♀️: - Evaporator.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - Honda Civic, 2007.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Snow operator, I need operator.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - I have some questions regarding the service for today.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Laura l a u r. A\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Omark worke.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 925-786-3244.\n   👩🏻‍💻: -    Please say yes to confirm our agent can contact you  ",
+        "LastIteration": "\n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you soon. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Evaporator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Goode   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Speak with a representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - About Ethan of service schedule for tomorrow.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Speak with a representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Wilson   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I'm trying to speak with Alex.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - I am trying to reach Alex.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "I'm trying to speak with Alex. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Jasso   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Status of my car service.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "Type": "Status",
+        "TrainingString": " Status of my car service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Jasso   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Checking on the status of my car service.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "Type": "Status",
+        "TrainingString": " Checking on the status of my car service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - The Way You Are.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Make an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  ",
+        "Type": "Booking",
+        "TrainingString": "Make an appointment."
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Customer service.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Amandersings aminder.\n   👩🏻‍💻: - Please say your last name then spell \n👱‍♀️: - Sindh.\n   👩🏻‍💻: - Please enter a 10 digit phone number\n👱‍♀️: - 408-464-9351.\n   👩🏻‍💻: -    Please say yes to confirm our agent can contact you  ",
+        "LastIteration": "\n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you soon. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Customer service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? Please say operator ",
+        "LastIteration": "\n👱‍♀️: - Evaporator.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   ",
+        "Type": "Operator",
+        "TrainingString": " Evaporator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Longoria   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Yes, I do you hear me?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Accident. Honda engine.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Yes, I do you hear me? ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Sarda   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Yep, Hope.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Are there?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Can I come to Alex?\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Other",
+        "TrainingString": "Yep, Hope. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I wanted to speak to the service manager.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - I put my job application in. Calling the service manager to speak about this job opportunity there\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Okay.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Right. P r. I c e.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "I wanted to speak to the service manager. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Adam   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Yes, please.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2016 CRV ?   \n👱‍♀️: - No, thank you.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Alex.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:30 AM, 10:30 AM and 11:30 AM   Please select a time, say next, or say a date \n👱‍♀️: - A 5th.\n   👩🏻‍💻: - We could not find any availability on that day. Please say a future date or say operator\n👱‍♀️: - Evaporator.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Can I speak with Alex?\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Yes, please. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Singh   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Urgent, please.\n   👩🏻‍💻: -    Please contact the Honda care Roadside Assistance at 1-800-594 -7400   \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Hyundai in Honda CRV.\n   👩🏻‍💻: - Thank you. Our automated service only handles Honda models. Please say another year make and model, or say operator to get assistance for your hyundai.\n👱‍♀️: - Evaporator.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "Type": "Other",
+        "TrainingString": "Urgent, please. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Ishaque   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Oil change.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - Honda Odyssey.\n   👩🏻‍💻: - Please say your vehicle's year \n👱‍♀️: - 2015.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Know.\n   👩🏻‍💻: - Our first availability isTomorrow at 9:15 AM, 10:15 AM and 11:15 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - 915.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Oil change. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Matute   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Customer service, customer service.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - You should when an account.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Customer service, customer service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Henningsen   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Need service on Honda clarity.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2018 CLARITYPLUGINHYBRID ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Basic service.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?",
+        "LastIteration": "\n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isMonday September 19th at 9:30 AM, 10:00 AM and 10:30 AM   Please select a time, say next, or say a date ",
+        "Type": "Booking",
+        "TrainingString": "Need service on Honda clarity. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Nallamilli   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Nallamilli   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Sacramento divorce.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Starbucks.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Connect me to Waze.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Sacramento divorce. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Yalamanchili   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Towed.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - Help.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Tailpipe.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Towed. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Yalamanchili   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Mcquillan   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I need to change an appointment.\n   👩🏻‍💻: - I did not find any appointment under this phone number.. Please say operator or other.\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - I need to change an appointment.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Reschedule",
+        "TrainingString": "I need to change an appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Ferrer   Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Oil change.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - 2017, Honda Civic.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Know.\n   👩🏻‍💻: - Our first availability isToday at 11:15 AM and 12:30 PM   Please select a time, say next, or say a date of your choice\n👱‍♀️: - Text.\n   👩🏻‍💻: - We have availabilityTomorrow at 9:00 AM, 10:00 AM and 11:00 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 9 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Oil change. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "Type": "Other",
+        "TrainingString": "No matched intent ‍️"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Ken Harvey's Dublin Honda Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Need to talk to someone in service.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - I need to know how much cost to change the transmission oil.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Luis l u. I s\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Hernandez.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Need to talk to someone in service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Valleb   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Kaja   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Shaking.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - Kia.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Customer service.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": "No matched intent ‍️"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Valleb   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Speak to a representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Speak to a representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Technical Representatives, please.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": "Technical Representatives, please. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Ferro   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - What is this autumn?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2022. Kia Stinger.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Check. Engine light is on.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?",
+        "LastIteration": "\n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isWednesday September 14th at 1:00 PM and 2:45 PM   Please select a time, say next, or say a date ",
+        "Type": "Booking",
+        "TrainingString": "What is this autumn? ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Slade   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I need to bring my car in for service.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2016 OPTIMA ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Diagnostics.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isThursday September 15th at 1:15 PM   Please select a time, say next, or say a date \n👱‍♀️: - September 7th.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityThursday September 15th at 1:15 PMPlease select a time, say next, or say a date\n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityFriday September 16th at 9:45 AM and 11:15 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 945.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I need to bring my car in for service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Shaheen   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Can I make appointment for today?\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2020. Kia, Sorento.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Need a ride.\n   👩🏻‍💻: - Our first availability isSaturday September 17th at 8:00 AM, 9:00 AM and 10:00 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Customer service person.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Booking",
+        "TrainingString": "Can I make appointment for today? ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Speak with an assistant.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Speak with an assistant. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Kraus   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I'd like to make an appointment for service.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia teluride 2022.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Filter.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - I'll wait at the dealership.\n   👩🏻‍💻: - Our first availability isTuesday September 13th at 11:00 AM, 1:30 PM and 2:30 PM   Please select a time, say next, or say a date \n👱‍♀️: - September 19th.\n   👩🏻‍💻: - We have availabilityMonday September 19th at 8:15 AM, 9:30 AM and 10:30 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 1030.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I'd like to make an appointment for service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Reno   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I'd like to book an appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2020 SOUL ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Just general maintenance.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Know, I'll drop it off.\n   👩🏻‍💻: - Our first availability isMonday September 12th at 11:30 AM and 1:30 PM   Please select a time, say next, or say a date \n👱‍♀️: - September 6th.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityMonday September 12th at 11:30 AM and 1:30 PMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 1130.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I'd like to book an appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Rosati   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - I need to speak to a human being. Thank you.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " I need to speak to a human being. Thank you. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Richard jr   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Speak to representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Speak to representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Paniscotti   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Customer service.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Customer service. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Health   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2022.\n   👩🏻‍💻: - Please say your vehicle's model, for example, Sportage \n👱‍♀️: - Sportage.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Wait.\n   👩🏻‍💻: - Our first availability isMonday September 12th at 11:30 AM and 1:30 PM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - Snack.\n   👩🏻‍💻: - We have availabilityTuesday September 13th at 11:00 AM, 1:30 PM and 2:30 PMPlease select a time, say next, or say a date",
+        "Type": "Booking",
+        "TrainingString": "Make appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Brown   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Book appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2022. Kia, Sportage.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?",
+        "LastIteration": "\n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isMonday September 12th at 11:30 AM and 1:30 PM   Please select a time, say next, or say a date ",
+        "Type": "Booking",
+        "TrainingString": "Book appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Nugent   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Lugones   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Schedule appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2022 FORTE ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Bye-bye.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isMonday September 12th at 11:30 AM and 1:30 PM   Please select a time, say next, or say a date \n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityTuesday September 13th at 9:00 AM, 11:00 AM and 1:30 PMPlease select a time, say next, or say a date\n👱‍♀️: - To like a Time.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Go back.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Go back.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - September 13th, 9 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Schedule appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Richard jr   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Customer service, please.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Customer service, please. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Catapano   Welcome to Sansone Jr's 66 Kia Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I'd like to see if book it service appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2021 SPORTAGE ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil, change and tire rotation.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - I will be there to drop it off and be there.\n   👩🏻‍💻: - Our first availability isMonday September 12th at 11:30 AM, 1:30 PM and 3:30 PM   Please select a time, say next, or say a date \n👱‍♀️: - Could I have a representative please?\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - 3:30 September 12th.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I'd like to see if book it service appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Donlon   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Booking appointment for an oil change.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - 2022, Nissan Altima.\n   👩🏻‍💻: -  Would you like to drop off your vehicle, wait at the dealership, or would you need a ride? \n👱‍♀️: - Tire rotation.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 2022, Nissan Altima.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil, change and tire rotation.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Drop it off.\n   👩🏻‍💻: - Our first availability isFriday September 9th at 1:00 PM   Please select a time, say next, or say a date \n👱‍♀️: - September 16th.\n   👩🏻‍💻: - We have availabilityFriday September 16th at 9:00 AM, 10:00 AM and 11:00 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - 9 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Booking appointment for an oil change. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Cesco-cancian   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Can I speak to someone?\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Other.\n   👩🏻‍💻: -   My apologies, I am unable to handle your request. Please allow me to transfer you to an agent  ",
+        "Type": "Operator",
+        "TrainingString": "Can I speak to someone? ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Ms Katz   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Book, an appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2013 ALTIMA ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - They're checking the headlight and more.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Drop off. And that need a ride back.\n   👩🏻‍💻: - Our first availability isWednesday September 7th at 9:30 AM and 10:30 AM   Please select a time, say next, or say a date ",
+        "LastIteration": "\n👱‍♀️: - September 7th at 9:30 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Book, an appointment. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Nguyen   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Inzerillo   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Rode   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Speak to a representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Speak to a representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Hello.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Other.\n   👩🏻‍💻: -   My apologies, I am unable to handle your request. Please allow me to transfer you to an agent  ",
+        "Type": "Operator",
+        "TrainingString": "Hello. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Savare   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Operator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Schedule service for a customer.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - It's a 2012, Honda Civic.\n   👩🏻‍💻: - Thank you. Our automated service only handles Nissan models. Please say another year make and model, or say operator to get assistance for your $unhandledBrand.",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Booking",
+        "TrainingString": "Schedule service for a customer. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Catapano   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - I'd like to make an appointment.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2019 ROGUE ?   \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil, change and tire rotation.\n   👩🏻‍💻: - Would you like to drop off your vehicle, wait at the dealership, or would you need a ride?\n👱‍♀️: - Wait at the dealership.\n   👩🏻‍💻: - Our first availability isMonday September 12th at 11:30 AM and 1:30 PM   Please select a time, say next, or say a date \n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityTuesday September 13th at 9:00 AM, 11:00 AM and 1:30 PMPlease select a time, say next, or say a date\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityWednesday September 14th at 10:30 AM, 11:30 AM and 1:00 PMPlease select a time, say next, or say a date\n👱‍♀️: - Next.\n   👩🏻‍💻: - We have availabilityWednesday September 14th at 2:00 PM and 3:00 PMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - three p.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "I'd like to make an appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Romer jr   Welcome to Sansone Jr's 66 Nissan Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you needHow can I assist you today? \n👱‍♀️: - Yes.\n   👩🏻‍💻: -    Thank you    would you like to book an appointment for your    2022 FRONTIER ?   \n👱‍♀️: - I have to cancel today's appointment.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - 2022, Nissan Frontier.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - I need to cancel today's appointment.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Cancel service.\n   👩🏻‍💻: -  Would you like to drop off your vehicle, wait at the dealership, or would you need a ride? ",
+        "LastIteration": "\n👱‍♀️: - You know.\n   👩🏻‍💻: - Our first availability isTuesday September 6th at 11:00 AM, 12:00 PM and 1:00 PM   Please select a time, say next, or say a date ",
+        "Type": "Cancel",
+        "TrainingString": "Yes. ‍"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Agent.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I would like to speak to a representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": "Representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Cell.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other cell Department.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Please enter the casa amarilla, followed by the pound.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - We're sorry, the number you entered is either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - We're sorry, the number you entered is either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Cell. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Hello.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - For sale.\n   👩🏻‍💻: -   For sales, please dial 6263774770  ",
+        "Type": "Other",
+        "TrainingString": "Hello. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Campos   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Book appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2018. Kia Soul.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Book appointment for a recall.\n   👩🏻‍💻: -    Glad to help you with your recall. Please be informed that recalls are inspection only and may require parts that may not be available at the time of booking. Do you have any other concerns with your vehicle in addition to your recall?    \n👱‍♀️: - No.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - Drop off.\n   👩🏻‍💻: - Our first availability isTomorrow at 11:20 AM, 12:40 PM and 2:00 PM   Please select a time, say next, or say a date \n👱‍♀️: - Monday, September 5th.\n   👩🏻‍💻: - We do not have any availability on that day We have availabilityTuesday September 6th at 7:50 AM, 8:50 AM and 10:10 AMPlease select a time, say next, or say a date",
+        "LastIteration": "\n👱‍♀️: - Tuesday at 7:50 a.m.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Book appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Campos   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Book appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2018. Kia Soul.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   ",
+        "LastIteration": "\n👱‍♀️: - Work on my recall and check warranty status.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "Type": "Booking",
+        "TrainingString": "Book appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Campos   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": "Representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Campos   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service department.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Service department.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Service department. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Mr Ramirez ramos   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - I need to speak to Albert.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - I need to speak to Oliver from service.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "I need to speak to Albert. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service representative.\n   👩🏻‍💻: - Please say your message and we will try to assist you.\n👱‍♀️: - Car service.\n   👩🏻‍💻: - Great. Please say your first name then spell it\n👱‍♀️: - Ashley Ashley.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Havanese.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Service representative. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? Please say operator \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Other.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Talk to service representative.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": "No matched intent ‍️"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? Please say operator ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Other",
+        "TrainingString": " Operator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - 2018, Kia.\n   👩🏻‍💻: - Please say your vehicle's model, for example, SPORTAGE \n👱‍♀️: - Cancel.\n   👩🏻‍💻: - Okay, cancelled.\n👱‍♀️: - Nicole Sullivan.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make an appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Kia. Kia Soul, 2018.\n   👩🏻‍💻: -    Now, please tell me what services you would like?   \n👱‍♀️: - Oil change.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Waiting at the dealership.\n   👩🏻‍💻: - Our first availability isToday at 1:10 PM, 2:10 PM and 3:30 PM   Please select a time, say next, or say a date of your choice\n👱‍♀️: - 110 1:10 p.m. today.\n   👩🏻‍💻: - We have availabilityToday at 1:10 PM, 2:10 PM and 3:30 PMPlease select a time, say next, or say a date\n👱‍♀️: - 1:10 p.m. today.\n   👩🏻‍💻: - Please say your first name and last name\n👱‍♀️: - Cloud. Atlas\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Yes, I want 10 p.m. today.\n   👩🏻‍💻: - Please say your first name then spell it\n👱‍♀️: - Alex Alex.\n   👩🏻‍💻: - Please say your last name then spell ",
+        "LastIteration": "\n👱‍♀️: - Beatles.\n   👩🏻‍💻: -    Great. You are booked. Your confirmation is on the way. Our team looks forward to seeing you soon. Good bye.   ",
+        "Type": "Booking",
+        "TrainingString": "Appointment. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? Please say operator ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Other",
+        "TrainingString": " Operator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? Please say operator \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Minifigure.\n   👩🏻‍💻: - No matched intent\n👱‍♀️: - Make appointment.\n   👩🏻‍💻: -   Please say your vehicle year, make and model  \n👱‍♀️: - Followed by the pound key.\n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - Sorry, the number you entered is either invalid. Or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Good bye",
+        "Type": "Other",
+        "TrainingString": "No matched intent ‍️"
+    },
+    {
+        "Conversations": "",
+        "LastIteration": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? ",
+        "Type": "Other",
+        "TrainingString": "Other"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -  Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "LastIteration": "\n👱‍♀️: - \n   👩🏻‍💻: - No matched intent",
+        "Type": "Other",
+        "TrainingString": "No matched intent ‍️"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? Please say operator ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Operator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - WELCOME\n   👩🏻‍💻: -   Hello Mr Chin   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Speak to an agent.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Yes, I want to find out if I could bring my 2014 Santa Fe for service there. Please give me a call back at 818-580-2689. For this is Greg kihn by the way. Thank you very much.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you shortly. Good bye.   ",
+        "Type": "Operator",
+        "TrainingString": "Speak to an agent. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? Please say operator ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Operator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: - Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? Please say operator ",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " Operator. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Diggs   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - I have an appointment schedule, will I have to pay before? Work is done.\n   👩🏻‍💻: -    Great. I have notified our agents, and they will follow up with you about your status.   ",
+        "Type": "Quotation",
+        "TrainingString": " I have an appointment schedule, will I have to pay before? Work is done. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Diggs   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - I like to talk to service the service department.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " I like to talk to service the service department. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Diggs   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service Department, please.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - I need to talk with a service person.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": "Service Department, please. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Brown   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - I want to speak to the service department.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": " I want to speak to the service department. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Brown   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Service department.\n   👩🏻‍💻: - Please say your message and we will try to assist you.",
+        "LastIteration": "\n👱‍♀️: - Honesty to the service department.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Operator",
+        "TrainingString": "Service department. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Hoang   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? \n👱‍♀️: - Yes, I need an oil change.\n   👩🏻‍💻: -    Please say your vehicle year, make and model   \n👱‍♀️: - 1995 Kia Optima.\n   👩🏻‍💻: -  Would you like drop off your vehicle or wait at the dealership? \n👱‍♀️: - No.\n   👩🏻‍💻: - Would you like drop off your vehicle or wait at the dealership?\n👱‍♀️: - Wait at dealership.\n   👩🏻‍💻: - Got it. What day and time would you like to bring your car?\n👱‍♀️: - Today.\n   👩🏻‍💻: - We could not find any availability on that day. Please say a future date or say operator",
+        "LastIteration": "\n👱‍♀️: - Operator.\n   👩🏻‍💻: - Transferring call to an attendant",
+        "Type": "Booking",
+        "TrainingString": "Yes, I need an oil change. ‍"
+    },
+    {
+        "Conversations": "\n👱‍♀️: - TELEPHONY_WELCOME\n   👩🏻‍💻: -   Hello Ms Hoang   Welcome to Kia of Alhambra Service Department. This is Allio, your digital assistant. I can book appointments or get you the help you need. How can I assist you today?How can I assist you today? ",
+        "LastIteration": "\n👱‍♀️: - It's either invalid or we did not receive your response. Please enter the call summary followed by the pound key.\n   👩🏻‍💻: - Good bye",
+        "Type": "Other",
+        "TrainingString": " It's either invalid or we did not receive your response. Please enter the call summary followed by the pound key. ‍"
+    }
+
+]
