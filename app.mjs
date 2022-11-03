@@ -489,11 +489,15 @@ async function run(){
         toArray(),
     ).toPromise();
 }
-cron.schedule('0 */3 * * *', () => {
+cron.schedule('0 */3 * * *', async () => {
   console.log('running a task every 3 hours');
-  run().then(() => {
+  await run().then(() => {
     console.log('done');
     process.exit(0);
   });
+});
+run().then(() => {
+  console.log('done');
+  process.exit(0);
 });
 
