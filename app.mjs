@@ -1,4 +1,4 @@
-const schedule = require('node-schedule');
+
 import puppeteer from 'puppeteer';
 import {predict} from './classify.js'
 import moment from'moment';
@@ -8,7 +8,6 @@ import { GoogleSpreadsheet } from'google-spreadsheet';
 import CREDENTIALS  from "./sheets.json" assert { type: "json" };
 const RESPONSES_SHEET_ID = '1gza3a05wWV4bt7c9pMyJsm43hpbCpPx84Uctym2zjOg';
 import * as cron from 'node-cron'
-import { forEach } from 'xregexp';
 const doc = new GoogleSpreadsheet(RESPONSES_SHEET_ID);
 let allAgentsL = [
     {
