@@ -307,6 +307,7 @@ async function run(){
                 }
                 let iid = 500;
                 for (let idx = 1; idx < iid; idx++){
+                    let arrVal = idx;
                     try {
                         // select date range
                       await page1.waitForSelector('#main > div > div.workplace.ng-scope > div > history > div > div.top-panel.ng-scope > div > div.filter-panel.layout-row > div.layout-align-end-center.layout-row.flex-60 > md-datepicker:nth-child(1) > div > button > div')
@@ -376,7 +377,6 @@ async function run(){
                         arrVal -= 400
                        }
 
-                    let arrVal = idx;
                     let userSayArr = []
                     let agentSayArr = []
                     let convTime = []
