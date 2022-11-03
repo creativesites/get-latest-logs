@@ -278,7 +278,7 @@ async function run(){
     return from(allAgentsL).pipe(
         mergeMap(async (el) => {
             return withPage(browser)(async (page1) => {
-              responses = []
+              //responses = []
                 console.log(`Scraping ${el}`);
                 
                 let agentId = el.id;
