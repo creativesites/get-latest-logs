@@ -206,8 +206,35 @@ let allAgentsL = [
       url: 'https://dialogflow.cloud.google.com/#/editAgent/newagent-bvdd/'
     }
 ]
+let convArr = []
 let today = new Date()
-let formatedDate = moment(today).format('YYYY-MM-DD')
+let startDate = '2022-10-31'
+let endDate = '2022-11-03'
+let startDate1 = moment(startDate).format('dddd MMMM D YYYY');
+console.log(startDate1)
+let endDate1 = moment(endDate).format('dddd MMMM D YYYY');
+console.log(endDate1)
+let formatedDate = moment(today).format('YYYY-MM-DD');
+async function pushData(){
+    var data = JSON.stringify(convArr);
+    console.log(convArr.length)
+    var config = {
+        method: 'post',
+        url: 'https://script.google.com/macros/s/AKfycbw9OYAd3AQd4IBPBjpWovKVbUJwUrnnUSmAZlNNAGwNbaCgMKODo9iFAN_AADMAUZvh/exec?gid=377807407',
+        headers: {
+        'Content-Type': 'application/json'
+        },
+        data: data
+    };
+    
+    axios(config)
+    .then(function (response) {
+    console.log(JSON.stringify(response.data));
+    })
+    .catch(function (error) {
+    console.log(error);
+    });
+}
 async function run(){
     const browser = await puppeteer.launch({
         headless: false,
@@ -221,15 +248,8 @@ async function run(){
 
     // load the documents info
     await doc.loadInfo();
-    const sheet = doc.sheetsByTitle['LastTenConv'];
+    const sheet = doc.sheetsByTitle['History'];
     console.log(sheet.title);
-    const rows = await sheet.getRows();
-    async function deleteRows(){
-      await rows.map(async (row,iddxx) => {
-        await rows[iddxx].delete();
-      })
-    }
-    await deleteRows();
     const page = await browser.newPage();
     await page.setViewport({
         width: 1360,
@@ -285,25 +305,77 @@ async function run(){
                 } catch (error) {
                   
                 }
-                let iid = 100;
+                let iid = 500;
                 for (let idx = 1; idx < iid; idx++){
-                    if(idx == 1){
-                        let currentDate = await page1.$(`#main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(${arrVal}) > div > div.layout-align-start-center.layout-row.flex-15 > span`);
-                        let txt 
-                           
-                        try {
-                        txt = await page1.evaluate(element => element.textContent, currentDate);
-                        console.log(txt)
-                        } catch (error) {
-                            
-                        }
-                        if(a && a === 'Today'){
-                            console.log('a')
-                        }else{
-                            console.log('b')
-                            break
-                        }
-                    }
+                    try {
+                        // select date range
+                      await page1.waitForSelector('#main > div > div.workplace.ng-scope > div > history > div > div.top-panel.ng-scope > div > div.filter-panel.layout-row > div.layout-align-end-center.layout-row.flex-60 > md-datepicker:nth-child(1) > div > button > div')
+                      await page1.waitForTimeout(1000);
+                      await page1.click('#main > div > div.workplace.ng-scope > div > history > div > div.top-panel.ng-scope > div > div.filter-panel.layout-row > div.layout-align-end-center.layout-row.flex-60 > md-datepicker:nth-child(1) > div > button > div');
+                      await page1.waitForTimeout(1000);
+                      // select start date
+                      await page1.waitForSelector(`aria/${startDate1}`)
+                      await page1.waitForTimeout(1000);
+                      await page1.click(`aria/${startDate1}`);
+                      await page1.waitForTimeout(1000);
+                      // select second date range
+                      await page1.waitForSelector('#main > div > div.workplace.ng-scope > div > history > div > div.top-panel.ng-scope > div > div.filter-panel.layout-row > div.layout-align-end-center.layout-row.flex-60 > md-datepicker:nth-child(3) > div > button');
+                      await page1.waitForTimeout(1000);
+                      await page1.click('#main > div > div.workplace.ng-scope > div > history > div > div.top-panel.ng-scope > div > div.filter-panel.layout-row > div.layout-align-end-center.layout-row.flex-60 > md-datepicker:nth-child(3) > div > button');
+                      await page1.waitForTimeout(1000);
+                      // select end date
+                      await page1.waitForSelector(`aria/${endDate1}`)
+                      await page1.waitForTimeout(1000);
+                      await page1.click(`aria/${endDate1}`);
+                      await page1.waitForTimeout(1000);
+                      // wait for page to load
+                      await page1.waitForTimeout(10000);
+                      } catch (error) {
+                        console.log(el)
+                        iid = 100;
+                      }
+                      if(idx === 101){
+                        await page1.waitForTimeout(2000)
+                        await page1.waitForSelector('aria/navigate_next')
+                        await page1.waitForTimeout(1000)
+                        await page1.click('aria/navigate_next');
+                        arrVal -= 100
+                       }
+                       if(idx > 101 && idx < 201){
+                        arrVal -= 100
+                       }
+                       if(idx === 201){
+                        await page1.waitForTimeout(2000)
+                        await page1.waitForSelector('aria/navigate_next')
+                        await page1.waitForTimeout(1000)
+                        await page1.click('aria/navigate_next');
+                        arrVal -= 200
+                       }
+                       if(idx > 201 && idx < 301){
+                        arrVal -= 200
+                       }
+                       if(idx === 301){
+                        await page1.waitForTimeout(2000)
+                        await page1.waitForSelector('aria/navigate_next')
+                        await page1.waitForTimeout(1000)
+                        await page1.click('aria/navigate_next');
+                        arrVal -= 300
+                       }
+                       if(idx > 301 && idx < 401){
+                        arrVal -= 300
+                       }
+
+                       if(idx === 401){
+                        await page1.waitForTimeout(2000)
+                        await page1.waitForSelector('aria/navigate_next')
+                        await page1.waitForTimeout(1000)
+                        await page1.click('aria/navigate_next');
+                        arrVal -= 400
+                       }
+                       if(idx > 401 && idx < 501){
+                        arrVal -= 400
+                       }
+
                     let arrVal = idx;
                     let userSayArr = []
                     let agentSayArr = []
@@ -328,17 +400,7 @@ async function run(){
                         let dateTimeArray = dateTime.split(',');
                         let c2 = dateTimeArray[0] + ' 2022'
                         let d2 = c2 + ', ' + dateTimeArray[1];
-                        let date = new Date(d2)
-                        const lessThanOneHourAgo1 = (date) => {
-                            const HOUR = 1000 * 60 * 60 * 3;
-                            const anHourAgo = Date.now() - HOUR;
-
-                            return date > anHourAgo;
-                        }
-                        console.log(lessThanOneHourAgo1(date))
-                        if(!lessThanOneHourAgo1(date)){
-                          break
-                        }
+                        
                         const html1 = await page1.evaluate(()=>{
                         return{
                             html: document.documentElement.innerHTML
@@ -486,7 +548,7 @@ async function run(){
         toArray(),
     ).toPromise();
 }
-cron.schedule('0 */3 * * *', async () => {
+cron.schedule('0 */10 * * *', async () => {
   console.log('running a task every 3 hours');
   await run().then(() => {
     console.log('done');
