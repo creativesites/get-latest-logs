@@ -206,6 +206,7 @@ let allAgentsL = [
       url: 'https://dialogflow.cloud.google.com/#/editAgent/newagent-bvdd/'
     }
 ]
+allAgentsL =  allAgentsL.reverse()
 let convArr = []
 let today = new Date()
 let startDate = '2022-10-31'
@@ -390,11 +391,15 @@ async function run(){
                     let iterationsExceeded = false
                     try{
                         
-                        let cpy = await page1.waitForSelector(`#main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(${arrVal}) > div`, {timeout: 5000})
-                        await page1.waitForTimeout(1000)
-                        //await scrollIntoViewIfNeeded(cpy, 6000);
-                        await page1.click(`#main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(${arrVal}) > div`)
-                        await page1.waitForTimeout(1000);
+                         try {
+                            await page1.waitForSelector(`#main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(${arrVal}) > div > div.layout-align-start-center.layout-row.flex-85`, {timeout: 5000})
+                            await page1.waitForTimeout(1000)
+                            // #main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(1) > div > div.layout-align-start-center.layout-row.flex-85
+                            await page1.click(`#main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(${arrVal}) > div > div.layout-align-start-center.layout-row.flex-85`)
+                            await page1.waitForTimeout(1000);
+                         } catch (error) {
+                            continue;
+                         }
                         let dateTimeElement = await page1.waitForSelector(`#main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(${arrVal}) > interactions > div > div.content-section-interactions > div:nth-child(2) > div.user.layout-align-start-center.layout-row > div.layout-align-end-center.layout-row.flex-45 > span.date.ng-binding`)
                         let dateTime = await page1.evaluate(element => element.textContent, dateTimeElement);
                         let dateTimeArray = dateTime.split(',');
