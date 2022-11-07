@@ -43,6 +43,7 @@
     "morgan": "^1.10.0",
     "node-async-loop": "^1.2.2",
     "node-cron": "^3.0.2",
+    "node-fetch": "^3.2.10",
     "node-schedule": "^2.1.0",
     "p-waterfall": "^3.0.0",
     "path": "^0.12.7",
@@ -53,6 +54,7 @@
     "rxjs": "^7.5.7",
     "sequence-js": "^0.0.3",
     "sequential-async-foreach": "^1.0.4",
+    "sheetsu-node": "^0.0.7",
     "simple-text-search": "^1.1.5",
     "xregexp": "^5.1.1",
     "xvfb": "^0.4.0"

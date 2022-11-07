@@ -3,6 +3,8 @@ import puppeteer from 'puppeteer';
 import {predict} from './classify.js'
 import moment from'moment';
 import cheerio from'cheerio';
+import axios from 'axios';
+import fetch from 'node-fetch';
 import { range, filter, map, mergeMap, toArray , from} from 'rxjs';
 import { GoogleSpreadsheet } from'google-spreadsheet';
 import CREDENTIALS  from "./sheets.json" assert { type: "json" };
@@ -206,6 +208,24 @@ let allAgentsL = [
       url: 'https://dialogflow.cloud.google.com/#/editAgent/newagent-bvdd/'
     }
 ]
+async function ab(){
+  await doc.useServiceAccountAuth(CREDENTIALS);
+
+  // load the documents info
+  await doc.loadInfo();
+  const sheet = doc.sheetsByTitle['LastTenConv'];
+  console.log(sheet.title);
+  await sheet.delete();
+  const newSheet = await doc.addSheet(
+      {title: 'LastTenConv', headerValues: ['CallTime', 'Agent', 'Conversations', 'LastIteration', 'Type','TrainingString', 'isBookingIntent', 'TimeSlotsGiven', 'BookingCompleted', 'nh', 'Notes', 'Iterations', 'Date', 'Time', 'Reviewed', 'Problem Found'] }
+  );
+}
+await doc.useServiceAccountAuth(CREDENTIALS);
+
+    // load the documents info
+    await doc.loadInfo();
+    const sheet = doc.sheetsByTitle['LastTenConv'];
+    console.log(sheet.title);
 let today = new Date()
 let formatedDate = moment(today).format('YYYY-MM-DD')
 async function run(){
@@ -217,19 +237,8 @@ async function run(){
             '--disable-features=IsolateOrigins,site-per-process'
         ]
     });
-    await doc.useServiceAccountAuth(CREDENTIALS);
+    //await ab();
 
-    // load the documents info
-    await doc.loadInfo();
-    const sheet = doc.sheetsByTitle['LastTenConv'];
-    console.log(sheet.title);
-    const rows = await sheet.getRows();
-    async function deleteRows(){
-      await rows.map(async (row,iddxx) => {
-        await rows[iddxx].delete();
-      })
-    }
-    await deleteRows();
     const page = await browser.newPage();
     await page.setViewport({
         width: 1360,
@@ -258,7 +267,7 @@ async function run(){
     return from(allAgentsL).pipe(
         mergeMap(async (el) => {
             return withPage(browser)(async (page1) => {
-              responses = []
+              //responses = []
                 console.log(`Scraping ${el}`);
                 
                 let agentId = el.id;
@@ -271,22 +280,23 @@ async function run(){
                 await page1.reload({ waitUntil: ["networkidle0", "domcontentloaded"] });
                 await page1.waitForTimeout(10000);
                
-                try {
-                  // select 100 rows
-                let xn = await page1.$x('/html/body/div[1]/div[2]/div/div/div/section/div/div[3]/div/history/div/div[4]/div[1]/md-select/md-select-value/span[2]', {timeout: 10000});
-                await page1.waitForTimeout(4500);
-                await xn[0].click()
-                await page1.waitForTimeout(2500);
-                await page1.waitForTimeout(1000);
-                await page1.waitForSelector('aria/100')
-                await page1.waitForTimeout(1000);
-                await page1.click('aria/100');
-                await page1.waitForTimeout(15000);
-                } catch (error) {
+                // try {
+                //   // select 100 rows
+                // let xn = await page1.$x('/html/body/div[1]/div[2]/div/div/div/section/div/div[3]/div/history/div/div[4]/div[1]/md-select/md-select-value/span[2]', {timeout: 10000});
+                // await page1.waitForTimeout(4500);
+                // await xn[0].click()
+                // await page1.waitForTimeout(2500);
+                // await page1.waitForTimeout(1000);
+                // await page1.waitForSelector('aria/100')
+                // await page1.waitForTimeout(1000);
+                // await page1.click('aria/100');
+                // await page1.waitForTimeout(15000);
+                // } catch (error) {
                   
-                }
+                // }
                 let iid = 21;
                 for (let idx = 1; idx < iid; idx++){
+                  let arrVal = idx;
                     if(idx == 1){
                         let currentDate = await page1.$(`#main > div > div.workplace.ng-scope > div > history > div > div.content-section.ng-scope > conversations > div > div:nth-child(${arrVal}) > div > div.layout-align-start-center.layout-row.flex-15 > span`);
                         let txt 
@@ -297,14 +307,13 @@ async function run(){
                         } catch (error) {
                             
                         }
-                        if(a && a === 'Today'){
+                        if(txt && txt === 'Today'){
                             console.log('a')
                         }else{
                             console.log('b')
                             break
                         }
                     }
-                    let arrVal = idx;
                     let userSayArr = []
                     let agentSayArr = []
                     let convTime = []
