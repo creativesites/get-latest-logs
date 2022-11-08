@@ -237,8 +237,7 @@ async function run(){
             '--disable-features=IsolateOrigins,site-per-process'
         ]
     });
-    //await ab();
-
+    await ab();
     const page = await browser.newPage();
     await page.setViewport({
         width: 1360,
