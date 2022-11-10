@@ -226,10 +226,10 @@ async function ab(){
   await doc.loadInfo();
   const sheet = doc.sheetsByTitle['LastTenConv'];
   console.log(sheet.title);
-  console.log(sheet.rowCount);
   const sheet1 = doc.sheetsByTitle['History'];
   console.log(sheet1.title);
   const rows = await sheet.getRows();
+  console.log(rows.length);
   const moreRows = await sheet1.addRows(rows);
   await sheet.delete();
   const newSheet = await doc.addSheet(
