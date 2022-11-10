@@ -215,6 +215,11 @@ async function ab(){
   await doc.loadInfo();
   const sheet = doc.sheetsByTitle['LastTenConv'];
   console.log(sheet.title);
+  console.log(sheet.rowCount);
+  const sheet1 = doc.sheetsByTitle['History'];
+  console.log(sheet1.title);
+  const rows = await sheet.getRows();
+  const moreRows = await sheet1.addRows(rows);
   await sheet.delete();
   const newSheet = await doc.addSheet(
       {title: 'LastTenConv', headerValues: ['CallTime', 'Agent', 'Conversations', 'LastIteration', 'Type','TrainingString', 'isBookingIntent', 'TimeSlotsGiven', 'BookingCompleted', 'nh', 'Notes', 'Iterations', 'Date', 'Time', 'Reviewed', 'Problem Found'] }
@@ -228,15 +233,8 @@ await doc.useServiceAccountAuth(CREDENTIALS);
     console.log(sheet.title);
 let today = new Date()
 let formatedDate = moment(today).format('YYYY-MM-DD')
-async function run(){
-    const browser = await puppeteer.launch({
-        headless: false,
-        defaultViewport: null,
-        args: [
-            '--disable-web-security',
-            '--disable-features=IsolateOrigins,site-per-process'
-        ]
-    });
+async function run(browser){
+    
     await ab();
     const page = await browser.newPage();
     await page.setViewport({
@@ -259,7 +257,7 @@ async function run(){
             return await fn(page1);
         } finally {
             //await pushData()
-            
+            await page.close();
             await page1.close();
         }
     }
@@ -493,15 +491,29 @@ async function run(){
         }, 1),
         toArray(),
     ).toPromise();
+    
+}
+async function main(){
+  const browser = await puppeteer.launch({
+    headless: false,
+    defaultViewport: null,
+    args: [
+        '--disable-web-security',
+        '--disable-features=IsolateOrigins,site-per-process'
+    ]
+  });
+  await run(browser);
+  await browser.close();
+  return
 }
 cron.schedule('0 */3 * * *', async () => {
   console.log('running a task every 3 hours');
-  await run().then(() => {
+  await main().then(() => {
     console.log('done');
     process.exit(0);
   });
 });
-run().then(() => {
+main().then(() => {
   console.log('done');
   process.exit(0);
 });
