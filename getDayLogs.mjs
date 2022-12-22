@@ -5,7 +5,18 @@ import moment from'moment';
 import cheerio from'cheerio';
 import { range, filter, map, mergeMap, toArray , from} from 'rxjs';
 import { GoogleSpreadsheet } from'google-spreadsheet';
-import CREDENTIALS  from "./sheets.json" assert { type: "json" };
+let CREDENTIALS =  {
+  "type": "service_account",
+  "project_id": "j0-1-autoserviceai-gtcfxg",
+  "private_key_id": "34865fba66c5c90b6085f06c29ce8e8061c2c2c5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDLLPOHNZhEvj6M\np6bOyBJ0G3RqQZtLjMrex34cVcUFjPToVkROQ5gGU45mjEX8bQD3ay1A3ej1zytE\n+0zu0OY8/h0u9rAuBFozswX/tpRvot4cFV8vFlCLKC5XJWRcojxYqbJn+eVBXFfL\nbdrm32yMfRHYBAdZ4uM/e5FOjJwLB85Aw5u8thKJJgNkqTn0cQ2CPEafCcxFhKQb\n+o3EXkz+WsAoP+xZtOwVfbiuuTHKpi8s4lxjsGQNZHo1C1W9AtpBqzU6mGPd5D7f\nj5zshXdmc3gixD4NSfq4uHj1dQzxyTFT4vhGiid9Q7Ws3eFJ1BvrRRqQ8lGnvi+i\n08jXVctXAgMBAAECggEASWZH5ETcaZlBB5dZj8J/yCpS+EATVkvaznjLenkR4Ft3\n7qebrZqFxWNSQoHSlsraWogBpTmF+6eIPjd7J5uYUdiLunesVjOEUsEOHb9cCKiS\nDRs7c8tf9aXid+EuTLjfjDhiF2YUCHTP0tIxDs8QbACS/bMW5MYuyrRdXj818FWP\nsGlhEdIcAo7b9dDRrorksdr5dH2BhpYk4zF/vXBvJmgnRwEx679Kdk7P5esbcKVJ\n/1BEcm79/E5Y7g612/MeVHv2epbwAqlv+CQCJT0TKtNrJMzJiCz2kqD6QNTCjIEM\naqdzzKV8rSGw8PYTartokWwVn6enlL36sPUOZrlsAQKBgQD/7bVohYSDoEC02ltn\nOlnZeOIQiGvAjyrxy7p8mueYop4IoiOdUCdHIlLY79n6Gp3BYgWruEV+uAKNySLX\nOK8l/psMPUsB1tRNZ5gwAarICMoutTDwdgazAPBmemGyxLtJAsqJwpOWFS4PlYE6\nR0Rp91gFYQtuwPiuXWzeoRwe1wKBgQDLO3jtKIpgBNkKJ2GuOviXEntZQb/Yi8CN\nUd4z3EJzlODxUNIfwRh0Z8zo8zdCzkHWR3xUmm0Y2j6eIjaP9hvMvv6Rf5nSYA5m\nqRlwXSyCu3ysmWOSkKlogZfsvymiC3P4BRsLH+klYbN9qqQC/sSZHjfUfLN4PcZV\nNdWkqtSngQKBgQD8ZfmHqE3k5hGKiuKj7pcX87C3b2MdF9TZe/th0f9ft9i1WPpY\ntejWrZIZIorNrpwwULSZAvV+oIjcPiYfLWcGyI8uxfAIU08zO1yK08oS1yBWahlm\nvG+k7+MmncFmZcDyo08OB5g35pFzixVUXV6qRuZG/8sfoi5fAAJTmX47JwKBgQCU\ndXNWuyCqF6B8fFwsrENgCE4224LLKvuTwFQzShj42a6gWUvFiobUsebL3K9ni8go\nQbwfCVfcqcDIP3HgJAYWwQaxPqcdOLIMaEZ/AHE9ZrwiUUKdlDNMdi6G8PX2u6sR\naJlivQLRHdfCWt7ImVcAC0T5YcawdV/maxcP3QLPAQKBgQCF/wCoHzkUPZoZb5OW\n1KJgLDB2uS4sjpWceEuw1CSbo5WGEdVuMjFwUmTVt3ryIoFSziLzONcaeJR+Who+\ns93NWqH05SG1VS2pB5vaZiqcLeIy7JwRllgEi//GJlAP5JnjaY4N+PCuBu6FgRZ2\ngk4QI7iutUPNDLl4ncvhS+iqXw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "googlesheetslogs@j0-1-autoserviceai-gtcfxg.iam.gserviceaccount.com",
+  "client_id": "102428826656975284374",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlesheetslogs%40j0-1-autoserviceai-gtcfxg.iam.gserviceaccount.com"
+};
 const RESPONSES_SHEET_ID = '1gza3a05wWV4bt7c9pMyJsm43hpbCpPx84Uctym2zjOg';
 import * as cron from 'node-cron'
 const doc = new GoogleSpreadsheet(RESPONSES_SHEET_ID);
@@ -236,15 +247,8 @@ async function pushData(){
     console.log(error);
     });
 }
-async function run(){
-    const browser = await puppeteer.launch({
-        headless: false,
-        defaultViewport: null,
-        args: [
-            '--disable-web-security',
-            '--disable-features=IsolateOrigins,site-per-process'
-        ]
-    });
+async function run(browser){
+    
     await doc.useServiceAccountAuth(CREDENTIALS);
 
     // load the documents info
@@ -529,7 +533,7 @@ async function run(){
                         onh.IsBooking = bboking;
                         onh.Agent = el.name;
                         onh.IterationsExceeded = iterationsExceeded;
-                        let se = startTime.split(',')
+                        let se = dateTime.split(',')
                         let gdh = se[0] + '2022'
                         let gdh2 = moment(gdh, 'MMM DD YYYY').format('MM/DD/YYYY')
                         onh.Date = gdh2
@@ -553,14 +557,26 @@ async function run(){
         toArray(),
     ).toPromise();
 }
+async function main(){
+  const browser = await puppeteer.launch({
+    headless: false,
+    defaultViewport: null,
+    args: [
+        '--disable-web-security',
+        '--disable-features=IsolateOrigins,site-per-process'
+    ]
+  });
+  await run(browser)
+  await browser.close()
+}
 cron.schedule('0 */10 * * *', async () => {
-  console.log('running a task every 3 hours');
-  await run().then(() => {
+  console.log('running a task every 10 hours');
+  await main().then(() => {
     console.log('done');
     process.exit(0);
   });
 });
-run().then(() => {
+main().then(() => {
   console.log('done');
   process.exit(0);
 });
